@@ -4,6 +4,7 @@ title: 4년차 개발자의 회고
 image: 20210722-1.jpg
 date: 2021-07-22 22:00:00 +0900
 tags: [rest, work]
+visiable: true
 categories: retrospect
 ---
 
