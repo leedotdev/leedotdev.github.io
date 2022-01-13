@@ -4,7 +4,6 @@ layout: home
 {% include header.html %}
 <div class="c-posts o-opacity">
   {% for post in site.categories[page.title] %}
-    {% if post.visiable %}
     <article class="c-post">
       {% if post.image %}
       <a class="c-post-thumbnail" style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"
@@ -20,7 +19,6 @@ layout: home
           250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
       </div>
     </article>
-    {% endif %}
   {% endfor %}
 </div> <!-- /.c-posts -->
 {% include categories.html %}
